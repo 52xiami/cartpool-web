@@ -31,6 +31,12 @@ const DefaultMenu = () => {
             <Menu.Item key="9" icon={<PieChartOutlined />}>
                 <Link to="/poolorder">Pool Order</Link>
             </Menu.Item>
+            <Menu.Item key="10" icon={<PieChartOutlined />}>
+                <Link to="/store">Store</Link>
+            </Menu.Item>
+            <Menu.Item key="11" icon={<PieChartOutlined />}>
+                <Link to="/productmanage">Product</Link>
+            </Menu.Item>
         </Menu>
     );
 }
